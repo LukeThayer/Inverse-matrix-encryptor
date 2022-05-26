@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/encrypt.h
+matrix.h
+-
+stdlib.h
+-
+fstream
+-
+
+../include/matrix.h
+vector
+../include/vector
+iostream
+-
+
+/Users/lukethayer/projects/C++/encrypt/src/encrypt.cpp
+encrypt.h
+-
+
+/Users/lukethayer/projects/C++/encrypt/src/main.cpp
+iostream
+-
+encrypt.h
+-
+
+/Users/lukethayer/projects/C++/encrypt/src/matrix.cpp
+matrix.h
+-
+
